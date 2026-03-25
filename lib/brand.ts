@@ -1,0 +1,15 @@
+export const brand = {
+  name:         process.env.NEXT_PUBLIC_BRAND_NAME          || 'Paloma Home Services',
+  shortName:    process.env.NEXT_PUBLIC_BRAND_SHORT_NAME    || 'Paloma',
+  tagline:      process.env.NEXT_PUBLIC_BRAND_TAGLINE       || 'Home Services · DFW & North Texas',
+  color:        process.env.NEXT_PUBLIC_BRAND_COLOR         || '#2563eb',
+  email:        process.env.NEXT_PUBLIC_BRAND_EMAIL         || 'info@palomahomeservices.com',
+  phone:        process.env.NEXT_PUBLIC_BRAND_PHONE         || '(214) 555-0100',
+  phoneRaw:     process.env.NEXT_PUBLIC_BRAND_PHONE_RAW     || '2145550100',
+  senderName:   process.env.NEXT_PUBLIC_BRAND_SENDER_NAME   || 'Paloma Home Services',
+  senderEmail:  process.env.NEXT_PUBLIC_BRAND_SENDER_EMAIL  || 'info@palomahomeservices.com',
+  website:      process.env.NEXT_PUBLIC_SITE_URL            || 'https://palomahomeservices.com',
+  logoUrl:      process.env.NEXT_PUBLIC_BRAND_LOGO_URL      || '/logo.png',
+  city:         process.env.NEXT_PUBLIC_BRAND_CITY          || 'Dallas-Fort Worth, TX',
+  googleReviewUrl: process.env.GOOGLE_REVIEW_URL            || '',
+};
